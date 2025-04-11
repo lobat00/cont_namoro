@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    background-image: url(/assets/heart@1x-1.0s-77px-77px.svg);
+    background-repeat: repeat;
+    background-size: 100px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    background-color: #aa3855;
+    width: 25vw;
+    min-width: 280px;
+    max-width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.251);
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 2em;
+    word-break: break-word;
+  }
+  
+  #timer {
+    font-size: 1.5em;
+    margin-top: 10px;
+    word-break: break-word;
+  }
+  
+  /* Responsivo para celulares */
+  @media (max-width: 600px) {
+    .box {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    #timer {
+      font-size: 1.2em;
+    }
+  }
+  
