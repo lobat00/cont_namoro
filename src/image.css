@@ -1,7 +1,7 @@
 .carousel-container {
   width: 100%;
   max-width: 800px;
-  height: auto;
+  height: 350px;
   aspect-ratio: 16 / 9;
   overflow: hidden;
   position: relative;

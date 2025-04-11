@@ -11,6 +11,8 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 10px;
+    font-size: 1rem;
+    padding: 1rem;
   }
   
   .box {
@@ -40,6 +42,11 @@ body {
   
   /* Responsivo para celulares */
   @media (max-width: 600px) {
+
+    body {
+      font-size: 1.1rem; /* deixa maior em telas pequenas */
+    }
+    
     .box {
       width: 95%;
       padding: 15px;
